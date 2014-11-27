@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>KR&amp;A - RE &amp; Data</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <!-- Add custom CSS here -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/logo_small.png" type="image/x-icon" />
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+                <a href="index.html"><img src="img/logo.png" width="100"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#membership">Membership</a>
+                    </li>
+                    <li><a href="#membership">Consultancy</a>
+                    </li>
+                    <li><a href="#membership">Visualizations and dashboards</a>
+                    </li>
+                    <li><a href="#clients">Clients</a>
+                    </li>
+                    <li><a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        <!--
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+            <li data-target="#myCarousel" data-slide-to="9"></li>
+        -->
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('./img/slide1.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>The next tool for real estate decisions</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('./img/slide2.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Analytics become prescriptive</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('./img/slide3.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Tenants seem ahead of landlords</h1>
+                </div>
+            </div>
+			<div class="item active">
+                <div class="fill" style="background-image:url('./img/slide4.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Sources of data are broad</h1>
+                </div>
+            </div>
+            <!--
+            <div class="item">
+                <div class="fill" style="background-image:url('./img/slide5.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Do you really want to know?</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('./img/slide6.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Need a data check-up?</h1>
+                </div>
+            </div>   
+            <div class="item">
+                <div class="fill" style="background-image:url('./img/slide7.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Should you adjust course?</h1>
+                </div>
+            </div>  
+            <div class="item">
+                <div class="fill" style="background-image:url('./img/slide8.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Prepare for polarising real estate returns</h1>
+                </div>
+            </div>            
+             <div class="item">
+                <div class="fill" style="background-image:url('./img/slide9.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Prepare for polarising real estate returns</h1>
+                </div>
+            </div> 
+             <div class="item">
+                <div class="fill" style="background-image:url('./img/slide10.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Prepare for polarising real estate returns</h1>
+                </div>
+            </div>                                            
+        </div>-->
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <h1>About KR&amp;A</h1>
+                <p>KR&amp;A is a European real estate consultancy firm. We offer investors solutions for improved returns, and better risk management. We are experienced in valuing and assessing the outlook for listed real estate companies in Europe. KR&A advises real estate investors about strategy, operations and sustainability. We believe data analytics and the resulting information has become a competitive advantage. We offer a broad range of data solutions for real estate companies. We write bespoke research, we perform due diligence and give second opinions. We are never deal-incentivized. As a result our advice is sound, fully aligned and not clouded by a need for a transaction.</p>
+            </div>
+        </div>
+    </div>
+
+    <a name="membership"></a>
+    <a name="products"></a>
+    <div class="section-colored">
+        <div class="container">
+            <div class="row">
+                <h2>Products</h2>
+                <div class="col-lg-4 col-md-4">
+                    <h3>Membership</h3>
+                    <p>Our corporate membership ensures accelerated learning and saves your company valuable time. We get you towards a best in class understanding of real estate centric analytics and visualisations. So you continue to outperform. <button id="open-membership" class="open-dialog-colored">Read more </button>
+                    
+                    <div id="membership-dialog" title="Membership KR&amp;A Research" class="readmore-dialog">The core of our membership is our information and research. Our research about data and real estate is valuable unbiased information and knowledge. It is not a freeby. We are sharing our best sources with you. It will improve your decision making about investment, development and financing of real estate. Sometimes marginally, sometimes very significantly. We analyse and write about retail, residential, office and other real estate sectors. Our research is never deal-incentivised. With our data, analytics and visualisations, your team will be significantly better informed than before. As a result your team will perform better than less-informed competitors. <br /><br />
+                    Our quarterly reports have a web-magazine and hardcopy format. We offer a closed knowledge platform for members. Our experienced Editorial Board ensures quality and relevance of the publications for real estate professionals. We offer members data, analytics and visualisation training for their teams or individuals. As a result you will be nurturing a data driven process. This can adjust a corporate culture towards more efficiency, and enhance outperformance. Our membership content will be online and readable on PC, tablet and smartphone. <br /> <br />
+                    A corporate membership is disruptive. It aims to kill inefficient processes, uninformed investments, undesirable developments and misprices loans. It can support your change in corporate culture. Your outperformance will improve further…  <br /> <br />
+                    Ask us for trial-membership at arjan@knibberesearch.com. Click <a href="http://kramembership.com/" target="_blank" class="red-link">here</a> for a sneak preview of the members-website.</div></p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3>Consultancy</h3>
+                    <p>We write bespoke research about real estate companies, portfolios, markets or scenarios that are relevant for you. We offer consultancy and sound, non-deal driven, expert advice. We offer discrete second opinions and assistance with whitepapers. <button id="open-consultancy" class="open-dialog-colored">Read more </button>
+                    
+                    <div id="consultancy-dialog" title="Consultancy" class="readmore-dialog">
+                    We write bespoke research about real estate companies, markets or scenarios that are relevant for you. We offer consultancy and sound, non-deal driven, expert advice. We can discuss changes to your strategy, and offer advice about equity capital market transactions. Discretely, with an expert opinion and without a deal incentive. We perform due diligence on international real estate joint-ventures, specializing in companies that are listed on the stock exchanges. We give independent second opinions.
+                    <h3>Investor relations, sustainability</h3>
+                    We are experts in investor relations and financial reporting of property companies and can improve your communication. We know the institutional shareholders of real estate companies, their motives and concerns. We have written extensively about sustainability for real estate companies and can help you integrate sustainability in your core processes and strategy. We can also scan your performance on a sustainability scale and advise you about improvement.
+                    <h3>Independent trusted expertise</h3>
+                    We do not undertake transactions for ourselves or for clients. We do not care if you buy or sell an asset or a company, we do not work on a transaction fee. We do not care if you issue debt or equity, we do not underwrite for a fee. We only care that you have more data, information, knowledge and experience at your disposal than before. That our clients have more intelligence than their counterparts, to better price real estate assets, their risks and returns. We do not tell you what you want to hear, we tell you what you need to know.
+                    </div>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3>Visualizations and Dashboards</h3>
+                    <p>Our dashboards and visualisations offer superior views on enriched data about your property markets or assets, detailed or aggregated on a company level. As a result we create tailormade knowledge about your assets and their markets. We also predict their outlook with advanced analytics. </p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.section -->
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                <div class="col-lg-10 col-md-10 col-sm-10">
+                    <img src="img/image.png" class="img-responsive">
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+            </div>
+        </div>
+    </div>
+
+    <a name="clients"></a>
+    <div class="section-colored">
+        <div class="container">
+            <div class="row">
+                <h2>Clients</h2>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <h3>Real estate companies</h3>
+                    <p>KR&amp;A advises clients about real estate strategies, operations, investor relations, sustainability and equity capital markets. <button id="open-real-estate" class="open-dialog-colored">Read more </button>
+                    <div id="real-estate-dialog" title="Real estate companies" class="readmore-dialog">
+                    KR&amp;A advises clients about real estate strategies, operations, investor relations, sustainability and equity capital markets. In addition we offer second opinions, and we do due diligence, when you are considering an acquisition or takeover. We offer a broad range of data modules in a web based interface. Our data modules are useful at a number of processes in your company. We have access to a wealth of data about micro locations that will give you additional insights into the demographics, lifestyles, interests and hobbies of your catchment area.</div>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <h3>Institutional investors</h3>
+                    <p>As shareholders in listed or non listed real estate vehicles you need to have access to all relevant aggregated data to optimise your allocation. <button id="open-investors" class="open-dialog-colored">Read more</button>
+                    <div id="investors-dialog" title="Institutional investors" class="readmore-dialog">
+                    As shareholders in listed or non listed real estate vehicles you want to have access to all relevant data to optimise your allocation. We can analyse or rank the outlook of cities or portfolios for a very large number of factors. We scan locations, cities and regions for aging, wealth accumulation, unemployment and other drivers of real estate performance. We create scans for your portfolio based on a large number of criteria and we can check the sustainability of the portfolio and strategy of your real estate companies. Our scans enhance returns but they can also be used to identify and minimise risk.
+                    </div>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <h3>Investment banks, private equity</h3>
+                    <p>We can immediately add significant European and local real estate intelligence to your investment banking or private equity team. <button id="open-banks" class="open-dialog-colored">Read more </button>
+                    <div id="banks-dialog" title="Investment banks, private equity" class="readmore-dialog">
+                    We add significant European and local real estate intelligence to your investment banking or private equity team. You may find this usefull when your real estate sector team temporarily needs additional local depth or international perspective. We can also give you a quick data update on certain property markets in Europe. In addition we assist in SWOT analyses for real estate locations, portfolios and companies, based on our experience, network and data.
+                    </div>
+                    </p>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section-colored -->
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                <div class="col-lg-10 col-md-10 col-sm-10">
+                    <img src="img/image2.png" class="img-responsive">
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <h2>Founder</h2>
+                <div class="col-lg-9 col-md-9 col-sm-9">
+                    <p align="justify">KR&amp;A was founded by Arjan Knibbe. Arjan has been a sell-side real estate analyst since 1994 at Kempen &amp; Co, UBS Investment Bank and ING. He is a specialist in Continental European property companies and has advised large investors in Europe, the US, Australia and Asia about the strategies, markets, valuation and outlook of European real estate companies. He has written extensively about pan-European valuation methodologies for real estate investmentment and development companies. He has been involved in a large number of equity raisings and IPOs, across Europe. Arjan has a Master in economy from the University of Amsterdam. He specialised in real estate investment and his thesis about the financial reporting of property companies was awarded a 9/10 score by Prof Kohnstamm. He has been a member of the EPRA best practice committee. Arjan is fluent in Dutch, English, French and German and participated in the INSEAD Transition to General Management program in 2013. He teaches listed real estate investment at the MSRE course of the Amsterdam School of Real Estate.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img src="img/founder.jpg" class="img-responsive scaled-half">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a name="contact"></a>
+    <div class="section-colored">
+        <div class="container">
+            <div class="row">
+                <h2>Contact</h2>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h3>More information?</h3>
+                    <script type="text/javascript">var submittedDown=false;</script>
+                    <iframe name="hidden_iframeDown" id="hidden_iframeDown" style="display:none;" onload="if(submittedDown) {formSubmit('form2')}"></iframe>
+                    <form role="form" name = 'emailform' action="https://docs.google.com/a/perceptum.nl/forms/d/1939-lhv3WkMhOM8FREaVxOd30OQoBlzl97YHJKdav4k/formResponse" method="post" target="hidden_iframeDown"  onsubmit="showHide()">
+                        <div class="form-group">
+                            <label aria-hidden="true" for="entry_1117052637">Name</label>
+                            <input type="text" name="entry_1117052637" placeholder="Your Name" class="form-control" id="entry_1117052637" dir="auto" aria-label="Name" title="">
+                        </div>
+                        <div class="form-group">
+                            <label aria-hidden="true" for="entry_1364407484">Email Address</label>
+                            <input type="text" name="entry_1364407484" placeholder="yourname@company.com" class="form-control" id="entry_1364407484" dir="auto" aria-label="E-mail" title="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="entry_1362648942">Message</label>
+                            <textarea name="entry.1362648942" class="form-control" rows="6" id="input4" id="entry_1362648942"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="hidden" name="draftResponse" value="[,,&quot;8163072938600051008&quot;]">
+                            <input type="hidden" name="pageHistory" value="0">
+                            <input type="hidden" name="fromEmail" value="false">
+                            <input type="hidden" name="fbzx" value="8163072938600051008">
+                            <input type="submit" name="submitDown" value="Submit" id="submitDown" class="btn btn-primary">
+                        </div>
+                    </form>
+                    <div id="hidden_div" style="display:none">
+                        <p>Thank you for leaving a message. We will be in touch!</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h3>Address</h3>
+                    <p><img src="img/logo.png" class="img-responsive scaled-eighth">Vijzelstraat 68-78<br>1017&nbsp;HL&nbsp;Amsterdam<br><br><i class="fa fa-fw fa-phone"></i>&nbsp;+31611303022<br><i class="fa fa-fw fa-envelope"></i>&nbsp;info@knibberesearch.com<br><i class="fa fa-fw fa-globe"></i>&nbsp;www.knibberesearch.com<br><br></p>
+                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="300" width="100%"src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Vijzelstraat+68+Amsterdam&amp;aq=&amp;sll=52.355519,4.950642&amp;ie=UTF8&amp;t=m&amp;z=11&amp;output=embed&amp;iwloc=near"></iframe>
+                </div>              
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.section -->
+    
+
+    <div class="section">
+        <div class="container">
+            <div class="row" align="center">
+                <img src="./img/Logo-full.png" width="25%">
+            </div>
+        </div>
+    </div>
+    
+        <div class="section-colored">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4" align="center">
+                    <p>&copy; KR&amp;A&nbsp;2014&nbsp; &middot; &nbsp;Knibbe Research and Analytics
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-9" align="center">
+                    <p><i class="fa fa-fw fa-home"></i>&nbsp;Vijzelstraat 68-78&nbsp; &middot; &nbsp;1017&nbsp;HL&nbsp; &middot; &nbsp;Amsterdam&nbsp; &middot; &nbsp;<i class="fa fa-fw fa-phone"></i>&nbsp;+31611303022&nbsp; &middot; &nbsp;<i class="fa fa-fw fa-envelope"></i>&nbsp;info@knibberesearch.com&nbsp; &middot; &nbsp;<i class="fa fa-fw fa-globe"></i>&nbsp;www.knibberesearch.com</p>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>  
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-6">
+                <p><i class="fa fa-fw fa-info"></i>Trade Register:&nbsp;61899666&nbsp; &middot; &nbsp;<i class="fa fa-fw fa-info"></i>VAT:&nbsp;NL141809553B02</p>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </div>
+    <!-- /.section -->
+
+
+    <!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/modern-business.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+</body>
+
+</html>
