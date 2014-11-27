@@ -55,6 +55,7 @@ h3 {
   width: 12.5%;
 }
 
+
 .readmore-dialog {
   background: #ffffff;
   font-family: 'Open Sans', sans-serif;
@@ -234,5 +235,11 @@ footer {
     height: 70%;
  /* increases the carousel height so it looks good on phones */
   }
+}
+
+@media screen and (max-width: 1000px) {
+.readmore-dialog {
+  width: 100% !important;
+}
 }
 
