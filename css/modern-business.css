@@ -238,8 +238,8 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
-.readmore-dialog {
-  width: 100% !important;
-}
+  .readmore-dialog {
+    width: 100% !important;
+  }
 }
 

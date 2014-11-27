@@ -9,6 +9,8 @@ $('.tooltip-social').tooltip({
 });
 
 $(document).ready(function(){	
+
+	/*HARDCODED dialog functions*/
 	$('#membership-dialog').dialog({
 		autoOpen: false,
 		height: 500,
