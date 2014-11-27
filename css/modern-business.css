@@ -40,6 +40,12 @@ h3 {
   border:none;
 }
 
+.toggle-text {
+  background-color: #ffffff;
+  padding:7px;
+  border-radius: 3px;
+}
+
 .scaled-half {
   height:50%;
   width: 50%;
