@@ -65,6 +65,11 @@ h3 {
   width: 50%;
 }
 
+.scaled-third {
+  height: 30%;
+  width: 30%;
+}
+
 .scaled-quarter {
   height:25%;
   width: 25%;
@@ -144,6 +149,7 @@ h3 {
 .carousel-inner {
   height: 100%;
 }
+
 
 .fill {
   width: 100%;
