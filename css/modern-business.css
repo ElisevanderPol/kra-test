@@ -31,6 +31,24 @@ h3 {
   font-size: 1.5em
 }
 
+
+/*Better menu*/
+.navbar-inverse .navbar-nav>li>a {
+  color: #e2e2e2;
+  font-weight: bold;
+  background-color: #343538;
+  font-family: "Open Sans";
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.navbar {
+  background-color: #343538
+}
+
 .row {
   background-color:transparent;
   border:none;
@@ -85,6 +103,10 @@ h3 {
   width: 12.5%;
 }
 
+.scaled-sixteenth {
+  height:6.25%;
+  width: 6.25%;
+}
 .center {
   text-align: center;
 }

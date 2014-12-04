@@ -14,11 +14,23 @@ $(document).ready(function(){
 		id = $(this).attr("id").split('-')[1];
 		$('#'+id).toggle();
 		message = $(this).text().trim();
-		if(message == "Read more") {
-			$(this).text("Read less");
+		console.log($('#'+id).attr("class"));
+		console.log($('#'+id).hasClass("toggle-map"));
+		if($('#'+id).hasClass("toggle-map")) {
+			if(message == "Show on map") {
+				$(this).text("Hide map");
+			}
+			else {
+				$(this).text("Show on map");
+			}
 		}
 		else {
-			$(this).text("Read more");
+			if(message == "Read more") {
+				$(this).text("Read less");
+			}
+			else {
+				$(this).text("Read more");
+			}
 		}
 	});
 
